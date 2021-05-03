@@ -1,19 +1,19 @@
-<EntityDescriptor entityID="urn:test-dev.auth0.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+<EntityDescriptor entityID="urn:nineleaps-prec.us.auth0.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
   <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <KeyDescriptor use="signing">
       <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
         <X509Data>
-          <X509Certificate>MIIC/zCCA... SPECIFIC CERT SNIPPED THIS WILL BE PROVIDED BY THE SSO PROVIDER ...x3BU67LVBLvQ/NpACq/</X509Certificate>
+          <X509Certificate>MIIDETCCAfmgAwIBAgIJWTgAYEBUvk5bMA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNVBAMTG25pbmVsZWFwcy1wcmVjLnVzLmF1dGgwLmNvbTAeFw0yMTA0MzAxNDExMDFaFw0zNTAxMDcxNDExMDFaMCYxJDAiBgNVBAMTG25pbmVsZWFwcy1wcmVjLnVzLmF1dGgwLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPPLLuSFVQKEm/knthMEnFfPaJq/HoJnF06F9YUgX0FwdZoJOFYlFg9BrY739ShtnpqbC9f6yWczd3J/BwhikW72eCGuWve/+JfA5sEcRpPWTUNnUaPYSW2dE8SA3PV+65UPRJHyw5pqM3kz57pbSsJX+SzRN6uero685bWDZluKdVPRb5Ru++g7G6olMYfKm3zrYGFeLk93SAA97OQrBBSJ4qWb8L++nMOuSK5UGHoq0Za7vaIYGUvtxNgub8c7z/jX63FCA64zgZHCN5FpgbK8Ig+680PB4Rix0H8gMdZ7eKt2z7p+Jza9BKrmxtOrQZVV1Sil8jgX6CL5jwJUvyUCAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUM9ubAGclvPmT/XYjJjH5+Iz+9zkwDgYDVR0PAQH/BAQDAgKEMA0GCSqGSIb3DQEBCwUAA4IBAQCpbVHaKsFBPvoCOGSR+EMw0zpwPu2mTHJ60KixdGUbBzmNEVissb021mSMOyhnDq3K+yfRlwOWTJgcqvYvi+ZzzSxw8RcV+CmerH5FePIAQfI2jrXcpefNbxyeG8tUebvWmxEJGbf3mj+zUk7BW1U48MbYYlZ+OTyg4Q52NeO01yU3yJ3S5EKRSBIB8EVBJBZiP+9WHXd+2qB7D2BqNYQFrGnro4knPyKO8o2dZC1C9uTgz4d+p/xpkXzGST8/GIehlrp+6T3SharUxgtrh6RDp2e8GJb6D7z5iOhFHJLRQzni/B44n4txB8wuDCL6RIFdM717XF+70073VbcKRKL+</X509Certificate>
         </X509Data>
       </KeyInfo>
     </KeyDescriptor>
-    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test-dev.auth0.com/samlp/... CLIENT ID FROM AUTH0 .../logout"/>
-    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test-dev.auth0.com/samlp/... CLIENT ID FROM AUTH0 .../logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nineleaps-prec.us.auth0.com/samlp/CFlEQgqDxtUYpOFAFhytkDgG1jeqTtuq/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nineleaps-prec.us.auth0.com/samlp/CFlEQgqDxtUYpOFAFhytkDgG1jeqTtuq/logout"/>
     <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
-    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test-dev.auth0.com/samlp/... CLIENT ID FROM AUTH0 ..."/>
-    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test-dev.auth0.com/samlp/... CLIENT ID FROM AUTH0 ..."/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nineleaps-prec.us.auth0.com/samlp/CFlEQgqDxtUYpOFAFhytkDgG1jeqTtuq"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nineleaps-prec.us.auth0.com/samlp/CFlEQgqDxtUYpOFAFhytkDgG1jeqTtuq"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="E-Mail Address" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Given Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>

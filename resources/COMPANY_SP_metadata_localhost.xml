@@ -1,16 +1,17 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2018-06-24T15:04:39Z" cacheDuration="PT604800S" entityID="http://localhost:8080/sso/... CLIENT ID FROM AUTH0 ...">
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2021-05-05T09:29:44Z" cacheDuration="PT604800S" entityID="http://localhost:8080/samlp/CFlEQgqDxtUYpOFAFhytkDgG1jeqTtuq">
   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <md:KeyDescriptor use="signing">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:X509Data>
-          <ds:X509Certificate>MIICjDCCAfWgAw... SPECIFIC CERT CREATED IN THE SAMLTOOL ...wFOFN1X+k9gnBbdvVV1lik4wY=</ds:X509Certificate>
+          <ds:X509Certificate>-----BEGINCERTIFICATEREQUEST-----MIIBqzCCARQCAQAwazELMAkGA1UEBhMCaW4xEjAQBgNVBAgMCUthcm5hdGFrYTESMBAGA1UECgwJTmluZWxlYXBzMTQwMgYDVQQDDCtodHRwczovL2VmZmljaWVudC1wZWFjZWZ1bC1kaW5naHkuZ2xpdGNoLm1lMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB/J+gbiCqz2BSe6J1fsGLN1ZmNBpqlhtAdA5kVqr31I1D4h2RF89vKQZDXRp4JWuYZx60UdRj10+YH93zfcq83/UlQwrIAzBpKj20oFhKe114qfNL+3o//vTzfNClzysMZ3r4UExq3+I5QNJrNaE5wqVP7qGd/0vlnNIqG8uIYQIDAQABoAAwDQYJKoZIhvcNAQENBQADgYEAqawTFaCo6iHdaCfmuDGQkixvyDZih2JLP+nmGHjPvcbVGKmupbA+aLk9Dz6Ewe2msPCdnEPY5BZDgKgUCjlV81VMg/0y9rSrs/lABpdxuoigIFDdJc8houHAU7rr0cJ9I94TcR7zE8CkDZwAApkhZpsD+olOcsz/CJYf4R5S6Ts=-----ENDCERTIFICATEREQUEST-----</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:X509Data>
-          <ds:X509Certificate>MIICjDCCAfWgAw... SPECIFIC CERT CREATED IN THE SAMLTOOL ...wFOFN1X+k9gnBbdvVV1lik4wY=</ds:X509Certificate>
+          <ds:X509Certificate>-----BEGINCERTIFICATEREQUEST-----MIIBqzCCARQCAQAwazELMAkGA1UEBhMCaW4xEjAQBgNVBAgMCUthcm5hdGFrYTESMBAGA1UECgwJTmluZWxlYXBzMTQwMgYDVQQDDCtodHRwczovL2VmZmljaWVudC1wZWFjZWZ1bC1kaW5naHkuZ2xpdGNoLm1lMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDB/J+gbiCqz2BSe6J1fsGLN1ZmNBpqlhtAdA5kVqr31I1D4h2RF89vKQZDXRp4JWuYZx60UdRj10+YH93zfcq83/UlQwrIAzBpKj20oFhKe114qfNL+3o//vTzfNClzysMZ3r4UExq3+I5QNJrNaE5wqVP7qGd/0vlnNIqG8uIYQIDAQABoAAwDQYJKoZIhvcNAQENBQADgYEAqawTFaCo6iHdaCfmuDGQkixvyDZih2JLP+nmGHjPvcbVGKmupbA+aLk9Dz6Ewe2msPCdnEPY5BZDgKgUCjlV81VMg/0y9rSrs/lABpdxuoigIFDdJc8houHAU7rr0cJ9I94TcR7zE8CkDZwAApkhZpsD+olOcsz/CJYf4R5S6Ts=-----ENDCERTIFICATEREQUEST-----</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
